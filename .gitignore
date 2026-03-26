@@ -1,0 +1,6 @@
+.DS_Store
+**/.DS_Store
+
+# Local / scratch assets not meant for the published site
+website/diagrams/
+**/cursor-data-analysis-workflow.svg
