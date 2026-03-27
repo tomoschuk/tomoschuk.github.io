@@ -136,6 +136,29 @@ main.section > .container > h2:first-child {
   margin-top: 0;
 }
 
+.content-section-heading {
+  margin-top: 2rem;
+}
+
+.content-section-heading:first-of-type {
+  margin-top: 1.35rem;
+}
+
+.dataset-list {
+  margin: 0.35rem 0 0;
+  padding-left: 1.25rem;
+  max-width: 42rem;
+  color: var(--muted);
+}
+
+.dataset-list li {
+  margin-bottom: 0.75rem;
+}
+
+.dataset-list a {
+  font-weight: 600;
+}
+
 p {
   margin-top: 0;
   color: var(--muted);

@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tutorials applying data science methods to language datasets.">
-    <title>Brendan Tomoschuk - Tutorials</title>
+    <meta name="description" content="Tutorials and public datasets for language-related data science work.">
+    <title>Brendan Tomoschuk - Tutorials and Datasets</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -16,18 +16,20 @@
           <a href="publications.html">Publications</a>
           <a href="patents.html">Patents</a>
           <a href="teaching.html">Teaching</a>
-          <a href="tutorials.html" class="active">Tutorials</a>
+          <a href="tutorials.html" class="active">Tutorials and Datasets</a>
         </nav>
       </div>
     </header>
 
     <main class="section">
       <div class="container">
-        <h2>Tutorials</h2>
+        <h2>Tutorials and Datasets</h2>
         <p>
-          Tutorials that show a variety of data science methods applied to language datasets
-          and other public-interest problems.
+          Writeups that apply data science methods to language data and other public-interest
+          problems, plus links to datasets those projects used or that I have collected.
         </p>
+
+        <h3 class="content-section-heading">Tutorials</h3>
         <ul class="project-list">
           <li>
             <div class="project-card-head">
@@ -88,6 +90,37 @@
             <p class="links">
               <a href="website/caseguide.html">Notebook</a>
             </p>
+          </li>
+        </ul>
+
+        <h3 class="content-section-heading">Datasets</h3>
+        <p>
+          Public releases and sources referenced in the tutorials above (and related or just cool datasets I've bookmarked).
+        </p>
+        <ul class="dataset-list">
+          <li>
+            <a href="https://github.com/duolingo/halflife-regression" target="_blank" rel="noopener noreferrer">Duolingo dataset (half-life regression)</a>
+            — public data and code for Settles &amp; Meeder (ACL&nbsp;2016); half-life regression for spaced repetition.
+          </li>
+          <li>
+            <a href="https://sharedtask.duolingo.com/2018.html" target="_blank" rel="noopener noreferrer">Duolingo (EMNLP dataset)</a>
+            — 2018 shared task on second language acquisition modeling (SLAM); token-level learner data with English, Spanish, and French tracks (BEA / NAACL-HLT&nbsp;2018).
+          </li>
+          <li>
+            <a href="https://corpus.mml.cam.ac.uk/efcamdat/" target="_blank" rel="noopener noreferrer">EF-Cambridge Open Language Database (EFCAMDAT)</a>
+            — large open-access corpus of L2 English learner essays with CEFR-style levels; access via application (academic affiliation; distribution through Google&nbsp;Drive after approval).
+          </li>
+          <li>
+            <a href="https://crtranscript.tumblr.com/transcripts" target="_blank" rel="noopener noreferrer">Critical Role transcripts</a>
+            — community episode transcripts (edited for length and clarity; see their site for caveats).
+          </li>
+          <li>
+            <a href="https://callison-burch.github.io/publications/fireball-dataset.pdf" target="_blank" rel="noopener noreferrer">FIREBALL (D&amp;D actual-play)</a>
+            — ~25k Discord sessions of real Dungeons&nbsp;&amp;&nbsp;Dragons play via the Avrae bot, with aligned dialogue, executable commands, and ground-truth game state (Zhu et&nbsp;al.; PDF describes data and NLG / utterance-to-command tasks).
+          </li>
+          <li>
+            <a href="https://tatoeba.org/en/downloads" target="_blank" rel="noopener noreferrer">Tatoeba multilingual sentence corpus</a>
+            — large collection of example sentences and translation links (CC&nbsp;BY / CC0 depending on export); weekly dumps and custom sentence-pair exports.
           </li>
         </ul>
       </div>
